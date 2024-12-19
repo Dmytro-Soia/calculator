@@ -12,6 +12,6 @@ function write_value(value) {
             display.textContent = value;
         } else {
         display.textContent += value;
+        }
     }
-}
 }

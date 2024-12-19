@@ -8,25 +8,40 @@ body{
 
 .calculator {
     text-align: end;
-    width: 400px;
+    width: 300px;
     border-color: blue;
     border: 1px solid ;
-    border-radius: 7px;
+    border-radius: 8px;
+    height: 500px;
+    background-color: #383434;
 }
 
 .display {
     height: 70px;
     border-radius: 10px 10px 0px 0px;
     font-size: 3em;
-    border-bottom: 1px solid ;
+    color: white;
+    border-bottom: 1px solid #383434;
 }
 
 .buttons {
-    padding: 5px;
-    border-radius: 0px 0px 10px 10px;
+    padding: 7px;
+    border-radius: 0px 0px 7px 7px;
     display: grid;
     grid-template-columns: auto auto auto ;
     column-gap: 5px;
     row-gap: 5px;
-    background-color: ghostwhite;
+    background-color: #282424;
+    height: 419px;
+    button {font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 35px;
+            color: white;
+            background-color: #383434;
+            border: none;
+            border-radius: 15%
+        };
+    .special {
+        background-color: #FF9933;
+    }
 }
+
